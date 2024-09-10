@@ -1,0 +1,105 @@
+#face{
+    background-color: rgb(192, 132, 132);
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    border:3px solid rgb(0, 255, 17)
+}
+
+
+.mouth{
+    height:100px;
+    width:200px;
+    background-color: blueviolet;
+    border-radius:20px 20px 200px 200px;
+    position:absolute;
+    top:250px;
+    left:100px;
+    border:2px dotted red;
+
+}
+
+.leye{
+    height:90px;
+    width:90px;
+    background-color: rgb(11, 11, 11);
+    position:absolute;
+    top:90px;
+    left:100px;
+}
+
+.reye{
+    height:90px;
+    width:90px;
+    background-color: rgb(11, 11, 11);
+    position: absolute;
+    top:90px;
+    left:200px;
+    
+}
+
+.lbol{
+    height:50px;
+    width:50px;
+    background-color: red;
+    position:absolute;
+    top:130px;
+    border-radius:40px 1000px 20px 40px;
+    left:100px;
+}
+
+.rbol{
+    height:50px;
+    width:50px;
+    background-color: red;
+    position:absolute;
+    top:130px;
+    border-radius:40px 1000px 20px 40px;
+    left:200px;
+}
+
+.rteeth{
+    height:40px;
+    width:40px;
+    background-color: rgb(245, 243, 246);
+    position:absolute;
+    top:270px;
+    left:200px;
+    border-radius:5px 5px 15px 15px; 
+
+}
+
+.lteeth{
+    height:40px;
+    width:40px;
+    background-color: rgb(245, 243, 246);
+    position:absolute;
+    top:270px;
+    left:155px;
+    border-radius:5px 5px 15px 15px; 
+    
+}
+
+.lteeth , .rteeth{
+    border:3px solid black;
+}
+
+*{
+    position:absolute;
+    left:100px;
+    top:25px;
+}
+
+.rbol:hover{
+    
+   box-shadow:4px 4px 10px greenyellow;
+   transition: 2s;
+}
+
+.lbol:hover{
+    
+    box-shadow:4px 4px 10px greenyellow;
+    transition: 2s;
+    
+ }
+ 
